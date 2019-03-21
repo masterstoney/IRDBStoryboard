@@ -14,6 +14,10 @@
 		BED195D222428E880041AE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED195D022428E880041AE2F /* LaunchScreen.storyboard */; };
 		BED195DD22428E880041AE2F /* IRDBStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195DC22428E880041AE2F /* IRDBStoryboardTests.swift */; };
 		BED195E822428E880041AE2F /* IRDBStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195E722428E880041AE2F /* IRDBStoryboardUITests.swift */; };
+		BED195F62242D9B00041AE2F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195F52242D9B00041AE2F /* DetailViewController.swift */; };
+		BED195F82242D9F40041AE2F /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195F72242D9F30041AE2F /* MovieListTableViewController.swift */; };
+		BED195FA2242DC540041AE2F /* IRDBDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195F92242DC540041AE2F /* IRDBDataModel.swift */; };
+		BED195FC2242DDC20041AE2F /* IRDBDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195FB2242DDC20041AE2F /* IRDBDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		BED195E322428E880041AE2F /* IRDBStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRDBStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED195E722428E880041AE2F /* IRDBStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDBStoryboardUITests.swift; sourceTree = "<group>"; };
 		BED195E922428E880041AE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED195F52242D9B00041AE2F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BED195F72242D9F30041AE2F /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		BED195F92242DC540041AE2F /* IRDBDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDBDataModel.swift; sourceTree = "<group>"; };
+		BED195FB2242DDC20041AE2F /* IRDBDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDBDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				BED195C722428E850041AE2F /* AppDelegate.swift */,
 				BED195C922428E850041AE2F /* ViewController.swift */,
 				BED195CB22428E850041AE2F /* Main.storyboard */,
+				BED195F52242D9B00041AE2F /* DetailViewController.swift */,
+				BED195F72242D9F30041AE2F /* MovieListTableViewController.swift */,
+				BED195F92242DC540041AE2F /* IRDBDataModel.swift */,
+				BED195FB2242DDC20041AE2F /* IRDBDataManager.swift */,
 				BED195CE22428E880041AE2F /* Assets.xcassets */,
 				BED195D022428E880041AE2F /* LaunchScreen.storyboard */,
 				BED195D322428E880041AE2F /* Info.plist */,
@@ -256,6 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED195F82242D9F40041AE2F /* MovieListTableViewController.swift in Sources */,
+				BED195FA2242DC540041AE2F /* IRDBDataModel.swift in Sources */,
+				BED195FC2242DDC20041AE2F /* IRDBDataManager.swift in Sources */,
+				BED195F62242D9B00041AE2F /* DetailViewController.swift in Sources */,
 				BED195CA22428E850041AE2F /* ViewController.swift in Sources */,
 				BED195C822428E850041AE2F /* AppDelegate.swift in Sources */,
 			);
