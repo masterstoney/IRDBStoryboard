@@ -14,6 +14,7 @@ class MovieListTableViewController: UITableViewController {
         super.viewDidLoad()
 
         self.navigationItem.titleView = UIImageView(image: #imageLiteral(resourceName: "irdblogo"))
+        self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 0.3215686275, green: 0.3215686275, blue: 0.3215686275, alpha: 1)
         fetchData()
     }
 

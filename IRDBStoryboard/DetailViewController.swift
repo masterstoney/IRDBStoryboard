@@ -43,7 +43,11 @@ class DetailViewController: UIViewController {
     
     func setupView() {
         
+        movieImageView.layer.borderColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        movieImageView.layer.borderWidth = 3.0
+        
         if let movie = movie {
+            self.navigationItem.title = movie.name
             movieTitleLabel.text = movie.name
             yearLabel.text = movie.yearStart
             formatLabel.text = movie.format
